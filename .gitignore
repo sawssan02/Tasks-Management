@@ -1,0 +1,55 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Ignorer les fichiers d'IDE
+.idea/
+*.iml
+
+# Ignorer les fichiers de compilation
+/out/
+*.class
+
+# Ignorer les fichiers sensibles
+tokens/
+*.key
+*.pem
+
+# Ignorer les fichiers multimédias temporaires
+*.wav
+*.mp3
+*.mp4
+
+# Ignorer les logs et fichiers système
+*.log
+.DS_Store
+
+#Ignorer credentials.json
+src/Service/resources/credentials.json
+
